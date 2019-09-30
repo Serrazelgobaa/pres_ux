@@ -1,0 +1,147 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 25px;
+    width: 100%;
+    background-color: #1b5e20;
+}
+
+#menu {
+    height: 60px;
+    width: 100%;
+    background-color: #4caf50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#menu img {
+    width: 50px;
+    height: 50px;
+}
+
+#header {
+    height: 274px;
+    width: 100%;
+    background-image: url(images/moine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header img {
+    width: 76px;
+}
+
+#body {
+    padding: 25px;
+    padding-top: 0px;
+}
+
+#body h3 {
+    opacity: 0.87;
+}
+
+#body p {
+    font-size: 0.9em;
+    opacity: 0.6;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+}
+
+#footer button {
+    height: 60px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    background-color: #00e5ff;
+    box-shadow: 0px 3px 4px rgba(0,0,0,0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(100vh - 85px);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+}
+
+.icon_container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#00e5ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.icon_container img {
+    width: 40px;
+}
+
+#list {
+    background-color : #dedede;
+}
+
+#list h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.arrow {
+    width: 50px;
+    margin-top: 20px;
+}
+
+#lecteur {
+    background-color: #81C784;
+}
+
+#lecteur h1 {
+    color: white;
+}
+
+#play {
+    width: 150px;
+}
+
+#body_lecteur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#body_lecteur img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
